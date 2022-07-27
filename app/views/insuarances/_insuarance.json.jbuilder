@@ -1,0 +1,2 @@
+json.extract! insuarance, :id, :first_name, :address, :last_name, :postal_code, :email, :city, :phone, :province, :municipla_evaluation_of_property, :insuarance_premium, :language, :second_home_owner, :third_home_owner, :type_of_property, :present_owner, :purchase_date, :lot_number, :bound_by_water, :ensure_municipal_water_sewer, :ensure_property, :client_knowledge, :note, :referral_agent_name, :referral_agent_email, :created_at, :updated_at
+json.url insuarance_url(insuarance, format: :json)

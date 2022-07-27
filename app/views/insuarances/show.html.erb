@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @insuarance %>
+
+<div>
+  <%= link_to "Edit this insuarance", edit_insuarance_path(@insuarance) %> |
+  <%= link_to "Back to insuarances", insuarances_path %>
+
+  <%= button_to "Destroy this insuarance", @insuarance, method: :delete %>
+</div>
